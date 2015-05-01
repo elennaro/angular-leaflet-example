@@ -1,0 +1,29 @@
+.angular-leaflet-map { 
+	display: block;
+	width: 100%;
+	min-width: 200px;
+	height: calc(100vh - 170px);
+	min-height: 200px;
+	max-height: 500px;
+}
+
+.btn-home {
+	margin: 10px;
+	background: #ebebeb;
+	border: #767676 solid 1px;
+	cursor: pointer;
+}
+
+.btn-home:hover {
+	background: #fff;
+}
+
+.pinpoint {
+	position: absolute;
+	top: 50%; left: 50%;
+	margin: -48px 0 0 -24px;
+	width: 48px;
+	height: 48px;
+	z-index: 1000;
+	background: url(../images/pointer.png) no-repeat center center;
+}

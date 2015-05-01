@@ -1,0 +1,13 @@
+.DS_STORE
+.netbeans
+nbproject
+.idea
+.editorconfig
+hooks/
+platforms/
+plugins/
+nbactions.xml
+nb-configuration.xml
+coverage
+.grunt
+bower_components/
